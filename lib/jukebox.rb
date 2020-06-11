@@ -15,7 +15,7 @@ def play(songs)
   users_input = gets.strip
   
   songs.each_with_index do |song_name, idx|
-    song_number = idx + 1
+    song_number = (idx + 1).to_s
     if users_input == song_number || users_input == song_name 
       puts "Playing #{song_name}"
       break

@@ -18,10 +18,10 @@ def play(songs)
     song_number = idx + 1
     if users_input == song_number || users_input == song_name 
       puts "Playing #{song_name}"
-    else
-      puts "Invalid input, please try again"
+      break
     end
   end
+  puts "Invalid input, please try again"
 end
 
 def exit_jukebox

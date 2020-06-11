@@ -44,13 +44,13 @@ def run(songs)
   case users_command
   when "help"
     help
-    run(songs) # Call the function again to
+    run(songs) # Call the function again to re-prompt user for another input
   when "list"
     list(songs)
-    run(songs)
+    run(songs) # Call the function again to re-prompt user for another input
   when "play"
     play(songs)
-    run(songs)
+    run(songs) # Call the function again to re-prompt user for another input
   when "exit"
     exit_jukebox
   else

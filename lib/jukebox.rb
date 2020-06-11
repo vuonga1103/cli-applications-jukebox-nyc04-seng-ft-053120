@@ -47,14 +47,3 @@ def run(songs)
   else
   end
 end
-# puts "Enter your name:"
-# users_name = gets.strip
- 
-# puts say_hello(users_name)
-
-# puts "Please enter a command:"
-# users_input = gets.strip.chomp
-
-# help if users_input == "help"
-# list(songs) if users_input == "list"
-

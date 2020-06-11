@@ -38,8 +38,10 @@ def run(songs)
     run(songs)
   when "list"
     list(songs)
+    run(songs)
   when "play"
     play(songs)
+    run(songs)
   when "exit"
     exit_jukebox
   else

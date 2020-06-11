@@ -21,6 +21,7 @@ def play(songs)
       break
     end
   end
+  
   puts "Invalid input, please try again"
 end
 

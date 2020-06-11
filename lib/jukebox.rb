@@ -44,7 +44,7 @@ def run(songs)
   case users_command
   when "help"
     help
-    run(songs)
+    run(songs) # Call the function again to
   when "list"
     list(songs)
     run(songs)

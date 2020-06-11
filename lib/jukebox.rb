@@ -19,7 +19,6 @@ def play(songs)
     if users_input == song_number || users_input == song_name 
       puts "Playing #{song_name}"
       return
-      break
     end
   end
   puts "Invalid input, please try again"

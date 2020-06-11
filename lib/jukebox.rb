@@ -35,6 +35,7 @@ def run(songs)
   case users_command
   when "help"
     help
+    run(songs)
   when "list"
     list(songs)
   when "play"

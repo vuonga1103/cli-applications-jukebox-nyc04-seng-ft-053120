@@ -30,11 +30,12 @@ end
 
 def run(songs)
   puts "Please enter a command:"
+  users_command = gets.strip.chomp
   while !users_command do 
     puts "Please enter a command:"
   end
   
-  users_command = gets.strip.chomp
+  
   
   case users_command
   when "help"

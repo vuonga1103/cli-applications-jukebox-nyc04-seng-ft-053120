@@ -7,6 +7,7 @@ def help
 end
 
 def list(songs)
+  # Displays each song with a 
   songs.each_with_index { |song, idx| puts "#{idx + 1}. #{song}" }
 end
 
